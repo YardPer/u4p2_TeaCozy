@@ -89,7 +89,24 @@ header nav span a {
   width: 1000px;
   top: 69px;
   margin: 0 auto;
+  flex-flow: column;
   align-items: center;
   justify-content: center;
+}
 
+#featuredTea #teaList {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+#featuredTea #teaList img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+#featuredTea div h5 {
+  margin-top: 10px;
 }
