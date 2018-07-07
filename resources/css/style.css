@@ -148,3 +148,31 @@ header nav span a {
   font-weight: normal;
   margin-top: 35px;
 }
+
+/*
+  Contact Section Element Edits
+*/
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: center;
+}
+
+#contact h5 a {
+  text-decoration: none;
+  text-color: seashell;
+}
+
+footer {
+  display: flex;
+  align-content: center;
+  text-align: left;
+  margin-left: 20px;
+  z-index: 2;
+}
+
+footer p {
+  font-size: 14px;
+}
