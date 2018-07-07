@@ -65,7 +65,7 @@ header nav span a {
   top: 69px;
   margin: 0 auto;
   /* background-color: blue; */
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-image: url("../../resources/images/img-mission-background.jpg");
   align-items: center;
   justify-content: center;
 }
@@ -80,7 +80,7 @@ header nav span a {
 }
 
 /*
-  Tea of The Month Section Element Edits
+  Featured Tea Section Element Edits
 */
 
 #featuredTea {
@@ -109,4 +109,42 @@ header nav span a {
 
 #featuredTea div h5 {
   margin-top: 10px;
+}
+
+/*
+  Locations Section Element Edits
+*/
+
+#locations {
+  display: flex;
+  height: 500px;
+  width: 1200px;
+  top: 69px;
+  margin: 0 auto;
+  background-image: url("../../resources/images/img-locations-background.jpg");
+  flex-flow: column;
+}
+
+#locations #locList {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#locations #locList .locBlock {
+  display: flex;
+  flex-flow: column;
+  height: 300px;
+  width: 300px;
+  /* margin-top: 15px; */
+  opacity: 1;
+  Justify-content: center;
+  background-color: black;
+}
+
+#locations #locList .locBlock p {
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 35px;
 }
